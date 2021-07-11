@@ -1,24 +1,25 @@
 .inline-block {
+
     display: inline-block;
     vertical-align: top;
 
 }
+
 .logo {
     width: 23%;
     padding: 1%;
+    text-align: center;
 }
 nav {
     width: 73%;
     padding: 1%;
 }
+
 ul {
     width: 50%;
     margin-left: auto;
 }
-.logo {
-    text-align: center;
 
-}
 .heroImg {
     height: 600px;
     padding: 25px;
@@ -26,8 +27,33 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    filter: drop-shadow(0 0 0.75rem crimson);
 
 }
 footer {
     background-color: #373738;
+    padding: 35px;
+    
+     
+}
+footer.ul  {
+    display: inline-block; 
+    vertical-align: top;
+    
+}
+footer.li {
+    padding: 100px;
+
+}
+body {
+    background-image: url("Creative.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+p {
+    font-family: sans-serif;
+}
+li {
+    font-family: sans-serif;
 }
